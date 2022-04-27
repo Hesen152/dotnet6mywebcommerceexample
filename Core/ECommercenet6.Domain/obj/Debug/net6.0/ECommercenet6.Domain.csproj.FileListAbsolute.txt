@@ -1,0 +1,12 @@
+C:\Users\User\Videos\dotnet6ecommerce\Core\ECommercenet6.Domain\bin\Debug\net6.0\ECommercenet6.Domain.deps.json
+C:\Users\User\Videos\dotnet6ecommerce\Core\ECommercenet6.Domain\bin\Debug\net6.0\ECommercenet6.Domain.dll
+C:\Users\User\Videos\dotnet6ecommerce\Core\ECommercenet6.Domain\bin\Debug\net6.0\ECommercenet6.Domain.pdb
+C:\Users\User\Videos\dotnet6ecommerce\Core\ECommercenet6.Domain\obj\Debug\net6.0\ECommercenet6.Domain.csproj.AssemblyReference.cache
+C:\Users\User\Videos\dotnet6ecommerce\Core\ECommercenet6.Domain\obj\Debug\net6.0\ECommercenet6.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Videos\dotnet6ecommerce\Core\ECommercenet6.Domain\obj\Debug\net6.0\ECommercenet6.Domain.AssemblyInfoInputs.cache
+C:\Users\User\Videos\dotnet6ecommerce\Core\ECommercenet6.Domain\obj\Debug\net6.0\ECommercenet6.Domain.AssemblyInfo.cs
+C:\Users\User\Videos\dotnet6ecommerce\Core\ECommercenet6.Domain\obj\Debug\net6.0\ECommercenet6.Domain.csproj.CoreCompileInputs.cache
+C:\Users\User\Videos\dotnet6ecommerce\Core\ECommercenet6.Domain\obj\Debug\net6.0\ECommercenet6.Domain.dll
+C:\Users\User\Videos\dotnet6ecommerce\Core\ECommercenet6.Domain\obj\Debug\net6.0\refint\ECommercenet6.Domain.dll
+C:\Users\User\Videos\dotnet6ecommerce\Core\ECommercenet6.Domain\obj\Debug\net6.0\ECommercenet6.Domain.pdb
+C:\Users\User\Videos\dotnet6ecommerce\Core\ECommercenet6.Domain\obj\Debug\net6.0\ref\ECommercenet6.Domain.dll

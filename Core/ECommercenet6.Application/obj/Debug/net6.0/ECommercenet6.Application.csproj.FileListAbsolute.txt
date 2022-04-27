@@ -1,0 +1,15 @@
+C:\Users\User\Videos\dotnet6ecommerce\Core\ECommercenet6.Application\bin\Debug\net6.0\ECommercenet6.Application.deps.json
+C:\Users\User\Videos\dotnet6ecommerce\Core\ECommercenet6.Application\bin\Debug\net6.0\ECommercenet6.Application.dll
+C:\Users\User\Videos\dotnet6ecommerce\Core\ECommercenet6.Application\bin\Debug\net6.0\ECommercenet6.Application.pdb
+C:\Users\User\Videos\dotnet6ecommerce\Core\ECommercenet6.Application\bin\Debug\net6.0\ECommercenet6.Domain.dll
+C:\Users\User\Videos\dotnet6ecommerce\Core\ECommercenet6.Application\bin\Debug\net6.0\ECommercenet6.Domain.pdb
+C:\Users\User\Videos\dotnet6ecommerce\Core\ECommercenet6.Application\obj\Debug\net6.0\ECommercenet6.Application.csproj.AssemblyReference.cache
+C:\Users\User\Videos\dotnet6ecommerce\Core\ECommercenet6.Application\obj\Debug\net6.0\ECommercenet6.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Videos\dotnet6ecommerce\Core\ECommercenet6.Application\obj\Debug\net6.0\ECommercenet6.Application.AssemblyInfoInputs.cache
+C:\Users\User\Videos\dotnet6ecommerce\Core\ECommercenet6.Application\obj\Debug\net6.0\ECommercenet6.Application.AssemblyInfo.cs
+C:\Users\User\Videos\dotnet6ecommerce\Core\ECommercenet6.Application\obj\Debug\net6.0\ECommercenet6.Application.csproj.CoreCompileInputs.cache
+C:\Users\User\Videos\dotnet6ecommerce\Core\ECommercenet6.Application\obj\Debug\net6.0\ECommercenet6.Application.csproj.CopyComplete
+C:\Users\User\Videos\dotnet6ecommerce\Core\ECommercenet6.Application\obj\Debug\net6.0\ECommercenet6.Application.dll
+C:\Users\User\Videos\dotnet6ecommerce\Core\ECommercenet6.Application\obj\Debug\net6.0\refint\ECommercenet6.Application.dll
+C:\Users\User\Videos\dotnet6ecommerce\Core\ECommercenet6.Application\obj\Debug\net6.0\ECommercenet6.Application.pdb
+C:\Users\User\Videos\dotnet6ecommerce\Core\ECommercenet6.Application\obj\Debug\net6.0\ref\ECommercenet6.Application.dll

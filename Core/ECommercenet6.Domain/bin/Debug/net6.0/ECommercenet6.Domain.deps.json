@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ECommercenet6.Domain/1.0.0": {
+        "runtime": {
+          "ECommercenet6.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ECommercenet6.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
