@@ -14,7 +14,7 @@ export class BaseComponent {
       () => {
         this.spinner.hide(spinnerNameType)
       },
-      1500
+      1200
     );
 
   }

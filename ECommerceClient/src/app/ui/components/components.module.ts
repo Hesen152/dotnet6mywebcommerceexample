@@ -4,16 +4,22 @@ import {ProductsModule} from "./products/products.module";
 import {HomeModule} from "./home/home.module";
 import {BasketsComponent} from "./baskets/baskets.component";
 import {BasketsModule} from "./baskets/baskets.module";
+import { RegisterComponent } from './register/register.component';
+import {RegisterModule} from "./register/register.module";
+import {LoginModule} from "./login/login.module";
 
 
 
 @NgModule({
-  declarations: [],
+  declarations: [
+  ],
   imports: [
     CommonModule,
     ProductsModule,
     HomeModule,
      BasketsModule,
+    RegisterModule,
+    LoginModule
   ]
 })
 export class ComponentsModule { }

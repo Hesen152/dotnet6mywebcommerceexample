@@ -1,6 +1,6 @@
-﻿namespace ECommercenet6.Application.Features.Commands.Product.UpdateProduct;
+﻿namespace ECommercenet6.Application.Features.Commands.Product.RemoveProduct;
 
-public class UpdateProductCommandResponse
+public class RemoveProductCommandResponse
 {
     
 }

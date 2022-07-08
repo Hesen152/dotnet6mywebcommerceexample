@@ -1,10 +1,14 @@
-﻿using ECommercenet6.Domain.Entities;
+﻿using ECommercenet6.Domain;
+using ECommercenet6.Domain.Entities;
 using ECommercenet6.Domain.Entities.Common;
+using ECommercenet6.Domain.Entities.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using File = ECommercenet6.Domain.Entities.File;
 
 namespace ECommercenet6.Persistence.Contexts;
 
-public class ECommercenet6ApiDbContext:DbContext
+public class ECommercenet6ApiDbContext:IdentityDbContext<AppUser,AppRole,string>
 {
   public ECommercenet6ApiDbContext(DbContextOptions options):base(options)
   {
@@ -15,6 +19,10 @@ public class ECommercenet6ApiDbContext:DbContext
   public DbSet<Product> Products { get; set; }
   public DbSet<Order> Orders { get; set; }
   public DbSet<Customer> Customers { get; set; }
+  public DbSet<File> Files { get; set; }
+  public DbSet<ProductImageFile> ProductImageFiles { get; set; }
+  public DbSet<InVoiceFile> InVoiceFiles { get; set; }
+  
 
   public override async Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
   {

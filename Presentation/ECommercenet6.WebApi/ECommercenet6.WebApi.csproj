@@ -7,10 +7,12 @@
     </PropertyGroup>
 
     <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.3" />
         <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.3">
           <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
           <PrivateAssets>all</PrivateAssets>
         </PackageReference>
+        <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.6" />
         <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
     </ItemGroup>
 
@@ -18,6 +20,40 @@
       <ProjectReference Include="..\..\Core\ECommercenet6.Application\ECommercenet6.Application.csproj" />
       <ProjectReference Include="..\..\Infrastructure\ECommercenet6.Infrastructure\ECommercenet6.Infrastructure.csproj" />
       <ProjectReference Include="..\..\Infrastructure\ECommercenet6.Persistence\ECommercenet6.Persistence.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="wwwroot" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="wwwroot\resource\product-images\demelididessu-10.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\resource\product-images\demelididessu-11.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\resource\product-images\demelididessu-12.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\resource\product-images\demelididessu-2.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\resource\product-images\demelididessu-3.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\resource\product-images\demelididessu-4.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\resource\product-images\demelididessu-5.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\resource\product-images\demelididessu-6.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\resource\product-images\demelididessu-7.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\resource\product-images\demelididessu-8.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\resource\product-images\demelididessu-9.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\resource\product-images\demelididessu.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\resource\product-images\DotNet-Developer-Featured-İmage-LevelFive-Solutions.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\resource\files\1398919_close_cross_incorrect_invalid_x_icon.png" />
+      <_ContentIncludedByDefault Remove="wwwroot\resource\files\286026860_5233618610007610_9141366854833826310_n.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\resource\files\286472198_3102757636705833_5642138506472643428_n.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\resource\files\demelididessu-2.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\resource\files\demelididessu.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\resource\files\DotNet-Developer-Featured-İmage-LevelFive-Solutions.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\resource\product-images\1398919_close_cross_incorrect_invalid_x_icon.png" />
+      <_ContentIncludedByDefault Remove="wwwroot\resource\product-images\286026860_5233618610007610_9141366854833826310_n.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\resource\product-images\i.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\resource-files\1398919_close_cross_incorrect_invalid_x_icon.png" />
+      <_ContentIncludedByDefault Remove="wwwroot\resource-files\i.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\invoices\product-images\286026860_5233618610007610_9141366854833826310_n.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\invoices\product-images\DotNet-Developer-Featured-İmage-LevelFive-Solutions.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\invoices\product-images\i.jpg" />
     </ItemGroup>
 
 </Project>

@@ -1,11 +1,22 @@
-﻿using MediatR;
+﻿using ECommercenet6.Application.Repositories;
+using MediatR;
 
-namespace ECommercenet6.Application.Features.Commands.Product.UpdateProduct;
+namespace ECommercenet6.Application.Features.Commands.Product.RemoveProduct;
 
-public class UpdateProductCommandHandler:IRequestHandler<UpdateProductCommandRequest,UpdateProductCommandResponse>
+public class RemoveProductCommandHandler:IRequestHandler<RemoveProductCommandRequest,RemoveProductCommandResponse>
 {
-    public Task<UpdateProductCommandResponse> Handle(UpdateProductCommandRequest request, CancellationToken cancellationToken)
+    private  readonly IProductWriteRepository  _productWriteRepository;
+
+    public RemoveProductCommandHandler(IProductWriteRepository productWriteRepository)
     {
-        throw new NotImplementedException();
+        _productWriteRepository = productWriteRepository;
+    }
+
+    public async  Task<RemoveProductCommandResponse> Handle(RemoveProductCommandRequest request, CancellationToken cancellationToken)
+    {
+          var deletedProduct= await _productWriteRepository.RemoveAsync(request.Id);
+        await _productWriteRepository.SaveChangesAsync();
+
+        return new();
     }
 }

@@ -1,0 +1,70 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-4"></div>
+    <div class="col-md-4">
+      <form [formGroup]="form" (ngSubmit)="onSubmit(form.value)">
+        <div class="mb-3">
+          <label for="nameSurname" class="form-label">NameSurname </label>
+          <input type="text" formControlName="nameSurname" class="form-control" id="nameSurname"
+                 [ngClass]="{'is-invalid':component.nameSurname.errors}"
+          >
+          <div class="form-text" *ngIf="submitted && component.nameSurname.errors?.required"
+          > Please addd you Surname
+          </div>
+          <div class="form-text" *ngIf="submitted && (component.nameSurname.errors?.maxlength ||
+          component.nameSurname.errors?.minlength)"
+          >Surname must be 1-50 chracater
+
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="userName" class="form-label">UserName</label>
+          <input [ngClass]="{'is-invalid':component.userName.errors}" type="text" formControlName="userName"
+                 class="form-control" id="userName">
+          <div id="userNameHelp" class="form-text" *ngIf="submitted && (component.userName.errors?.maxlength ||
+          component.userName.errors?.minlength)">Please insert UserName 1-50 character
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input [ngClass]="{'is-invalid':component.email.errors}" type="email " formControlName="email"
+                 class="form-control" id="email">
+          <div *ngIf="submitted && (component.email.errors?.maxlength ||
+          component.email.errors?.minlength || component.email.errors?.email)" class="form-text">
+            Email Is Required!
+          </div>
+          <div *ngIf="submitted && (
+          submitted || component.email.errors?.email)" class="form-text">
+            Please enter Email email format!
+          </div>
+
+
+        </div>
+
+        <div class="mb-3">
+          <label for="password" class="form-label">Password</label>
+          <input [ngClass]="{'is-invalid':component.password.errors}"
+                 type="password" formControlName="password"
+                 class="form-control" id="password">
+        </div>
+        <div class="mb-3">
+          <label for="passwordConfirm" class="form-label">Password Repeat</label>
+          <input [ngClass]="{'is-invalid':component.passwordConfirm.errors}"
+                 type="password" formControlName="passwordConfirm"
+                 class="form-control" id="passwordConfirm">
+          <div *ngIf="submitted && form.hasError('notSame')" class="form-text">
+            Please check email again! beacuse not same!
+          </div>
+
+        </div>
+
+        <button type="submit" class="btn btn-primary">Register</button>
+      </form>
+    </div>
+    <div class="col-md-4"></div>
+
+
+  </div>
+
+
+</div>

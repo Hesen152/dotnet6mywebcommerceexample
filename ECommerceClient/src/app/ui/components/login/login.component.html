@@ -1,0 +1,30 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-4"></div>
+    <div class="col-md-4">
+
+        <div class="mb-3">
+          <label for="userName" class="form-label">UserName</label>
+          <input  type="text"  #txtUserNameOrEmail
+                 class="form-control" id="userName">
+          <div id="userNameHelp" class="form-text" >
+          </div>
+        </div>
+
+        <div class="mb-3">
+          <label for="password" class="form-label">Password</label>
+          <input
+                 type="password"  #txtPassword
+                 class="form-control" id="password">
+        </div>
+
+        <button style="margin-top: 5px;"  type="submit" class="btn btn-primary" (click)="login(txtUserNameOrEmail.value,txtPassword.value)">Login</button>
+
+    </div>
+    <div class="col-md-4"></div>
+
+
+  </div>
+
+
+</div>

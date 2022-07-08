@@ -1,11 +1,88 @@
 {
   "Version": 1,
-  "Hash": "J/VMm+TDTgunOEHriNEy4OEUXgCtBcTO5hvOFXVVe7I=",
+  "Hash": "wUMHIyEZTRL8tdbfNBMAg6zXtloLAG5NIJji1paXUH8=",
   "Source": "ECommercenet6.WebApi",
   "BasePath": "_content/ECommercenet6.WebApi",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "ECommercenet6.WebApi\\wwwroot",
+      "Source": "ECommercenet6.WebApi",
+      "ContentRoot": "C:\\Users\\User\\Videos\\dotnet6ecommerce\\Presentation\\ECommercenet6.WebApi\\wwwroot\\",
+      "BasePath": "_content/ECommercenet6.WebApi",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\User\\Videos\\dotnet6ecommerce\\Presentation\\ECommercenet6.WebApi\\wwwroot\\files\\demelididessu.jpg",
+      "SourceId": "ECommercenet6.WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Videos\\dotnet6ecommerce\\Presentation\\ECommercenet6.WebApi\\wwwroot\\",
+      "BasePath": "_content/ECommercenet6.WebApi",
+      "RelativePath": "files/demelididessu.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\demelididessu.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Videos\\dotnet6ecommerce\\Presentation\\ECommercenet6.WebApi\\wwwroot\\files\\DotNet-Developer-Featured-İmage-LevelFive-Solutions.jpg",
+      "SourceId": "ECommercenet6.WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Videos\\dotnet6ecommerce\\Presentation\\ECommercenet6.WebApi\\wwwroot\\",
+      "BasePath": "_content/ECommercenet6.WebApi",
+      "RelativePath": "files/DotNet-Developer-Featured-İmage-LevelFive-Solutions.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\DotNet-Developer-Featured-İmage-LevelFive-Solutions.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Videos\\dotnet6ecommerce\\Presentation\\ECommercenet6.WebApi\\wwwroot\\photo-images\\demelididessu.jpg",
+      "SourceId": "ECommercenet6.WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Videos\\dotnet6ecommerce\\Presentation\\ECommercenet6.WebApi\\wwwroot\\",
+      "BasePath": "_content/ECommercenet6.WebApi",
+      "RelativePath": "photo-images/demelididessu.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\photo-images\\demelididessu.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Videos\\dotnet6ecommerce\\Presentation\\ECommercenet6.WebApi\\wwwroot\\photo-images\\DotNet-Developer-Featured-İmage-LevelFive-Solutions.jpg",
+      "SourceId": "ECommercenet6.WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Videos\\dotnet6ecommerce\\Presentation\\ECommercenet6.WebApi\\wwwroot\\",
+      "BasePath": "_content/ECommercenet6.WebApi",
+      "RelativePath": "photo-images/DotNet-Developer-Featured-İmage-LevelFive-Solutions.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\photo-images\\DotNet-Developer-Featured-İmage-LevelFive-Solutions.jpg"
+    }
+  ]
 }

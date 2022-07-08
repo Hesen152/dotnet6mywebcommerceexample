@@ -11,12 +11,33 @@ namespace testwebapplication.Controllers;
 public class JsonTestController:ControllerBase
 
 {
+    
+     TranscationContext _context;
+     
+    public JsonTestController(TranscationContext context)
+    {
+        _context = context;
+    }
+    
     const string url= "https://jsonplaceholder.typicode.com/posts";
 
     [HttpGet]
     public IEnumerable GetAll()
     {
+        using (var transctioncontext=_context.Database.BeginTransaction())
+        {
+            try
+            {
+                transctioncontext.Commit();
 
+            }
+            catch 
+            {
+                transctioncontext.Rollback();
+            
+            }
+            
+        }
 
 
 

@@ -1,10 +1,9 @@
-﻿using MediatR;
+﻿using ECommercenet6.Application.Features.Commands.Product.UpdateProduct;
+using MediatR;
 
-namespace ECommercenet6.Application.Features.Commands.Product.UpdateProduct;
+namespace ECommercenet6.Application.Features.Commands.Product.RemoveProduct;
 
-public class UpdateProductCommandRequest:IRequest<UpdateProductCommandResponse>
+public class RemoveProductCommandRequest:IRequest<RemoveProductCommandResponse>
 {
-    public string Name { get; set; }
-    public int Stock { get; set; }
-    public float Price { get; set; }
+    public string Id { get; set; }
 }
